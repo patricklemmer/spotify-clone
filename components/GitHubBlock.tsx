@@ -30,16 +30,16 @@ const GitHubBlock = () => {
       </div>
       <div className="mt-6 flex justify-around">
         <Link href="https://www.linkedin.com/in/patricklemmer/" target="_blank">
-          <FaLinkedinIn />
+          <FaLinkedinIn className="hover:text-white" />
         </Link>
         <Link href="https://twitter.com/patrick_lemmer" target="_blank">
-          <FaTwitter />
+          <FaTwitter className="hover:text-white" />
         </Link>
         <Link href="https://github.com/patricklemmer" target="_blank">
-          <FaGithub />
+          <FaGithub className="hover:text-white" />
         </Link>
         <Link href="https://patricklemmer.dev" target="_blank">
-          <SlGlobe />
+          <SlGlobe className="hover:text-white" />
         </Link>
       </div>
     </div>
