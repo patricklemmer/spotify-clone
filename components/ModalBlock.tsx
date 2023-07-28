@@ -49,7 +49,7 @@ const ModalBlock = () => {
               Expiration date
             </Text>
             <Text size={14} css={{ color: '#d4d4d4' }}>
-              XX/XX (Date must be in future)
+              XX/XX (Date must be in the future)
             </Text>
           </Row>
           <Row justify="space-between">
@@ -62,7 +62,7 @@ const ModalBlock = () => {
           </Row>
         </Modal.Body>
         <Modal.Footer>
-          <Button auto flat color="error" ghost onPress={closeHandler}>
+          <Button auto color="error" ghost onPress={closeHandler}>
             Close
           </Button>
         </Modal.Footer>
