@@ -8,7 +8,7 @@ import { SlGlobe } from 'react-icons/sl';
 
 const GitHubBlock = () => {
   return (
-    <div className="flex flex-col gap-y-8 px-5 py-4 text-neutral-400">
+    <div className="flex flex-col justify-between px-5 py-4 text-neutral-400">
       <div>
         <p>View this project on</p>
         <Link

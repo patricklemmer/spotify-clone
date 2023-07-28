@@ -16,6 +16,7 @@ import { Song } from '@/types';
 import usePlayer from '@/hooks/usePlayer';
 
 import GitHubBlock from './GitHubBlock';
+import ModalBlock from './ModalBlock';
 interface SidebarProps {
   children: React.ReactNode;
   songs: Song[];
@@ -63,7 +64,10 @@ const Sidebar: React.FC<SidebarProps> = ({ children, songs }) => {
         <Box className="overflow-y-auto h-full">
           <Library songs={songs} />
         </Box>
-        <Box className="overflow-y-auto h-1/2">
+        <Box className="h-1/4 flex flex-col justify-center items-center p-4">
+          <ModalBlock />
+        </Box>
+        <Box className="h-auto">
           <GitHubBlock />
         </Box>
       </div>
